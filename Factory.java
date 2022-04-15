@@ -10,7 +10,7 @@ class Cat implements Animal
 {
 	public void sound()
 	{
-		System.out.println("meow");
+		System.out.println(" Cats does meow ");
 	}
 }
 
@@ -18,7 +18,7 @@ class Dog implements Animal
 {
 	public void sound()
 	{
-		System.out.println("woof woof");
+		System.out.println(" Dogs does woof woof ");
 	}
 }
 
@@ -26,7 +26,7 @@ class Bird implements Animal
 {
 	public void sound()
 	{
-		System.out.println("chirp chirp");
+		System.out.println(" Birds does chirp chirp ");
 	}
 }
 
@@ -34,7 +34,7 @@ class Unknown implements Animal
 {
 	public void sound()
 	{
-		System.out.println("There isn't this animal yet");
+		System.out.println(" This animal is unknown\n ");
 	}
 }
 
@@ -87,5 +87,4 @@ class Factory
 		}	
 	}
 }
-
 
